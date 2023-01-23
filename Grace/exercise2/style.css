@@ -2,7 +2,7 @@
 
 /*body css */
 .container {
-    height:520px;
+    height:auto;
     width:450px;
     border: 1px solid black; 
     font-family: 'Roboto', sans-serif;
@@ -288,4 +288,146 @@
     margin-top:0; 
     margin-left:25px;
     margin-bottom: 0;
+}
+
+/*CONTENT*/
+
+.content{
+    margin:0px 5px 0px 5px;
+    font-size:14px;
+    
+}
+.content p{
+    font-size:14px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.tableHeader    {
+    display: flex; 
+    flex-direction:row;
+    justify-content:space-between;
+}
+.tabHead1{
+    flex-basis:185px;
+    text-align:right;
+    border: 1px solid black;
+   
+}
+.tabHead2   {
+    flex-basis:90px;
+    text-align:left;
+    border: 1px solid black;
+}
+.lastTable{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0px 5px 0px 5px;
+    font-size:12px;
+    border:1px solid black;
+}
+.noMargin{
+    flex-basis: 90px;
+    border: 1px solid black;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMargin p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMargin2  {
+    flex-basis:140px;
+    text-align:center;
+    border: 1px solid black;
+    margin-top:0px;
+}
+.noMargin2 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMargin3  {
+    flex-basis:133px;
+    border: 1px solid black;
+    margin-top:0px;
+}
+.noMargin3  p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMargin4{
+    flex-basis:93px;
+    border: 1px solid black;
+    margin-top:0px;
+}
+.noMargin4 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.lastCholest{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0px 5px 0px 5px;
+    font-size:12px;
+    border:1px solid black;
+}
+
+.lastSodium{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0px 5px 0px 5px;
+    font-size:12px;
+    border:1px solid black;
+}
+.lastCarb {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0px 5px 0px 5px;
+    font-size:12px;
+    border:1px solid black;
+}
+.bigMargin{
+    flex-basis:150px;
+}
+.bigMargin p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.bigMargin3{
+    flex-basis:170px;
+    border: 1px solid black;
+}
+.bigMargin3 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.bigMargin4 {
+    flex-basis:115px;
+}
+.bigMargin4 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.lastCal    {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0px 5px 0px 5px;
+    font-size:12px;
+    border:1px solid black;
+}
+
+.centerThree    {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:12px;
+}
+.center1 {
+    margin:0px 10px;
 }
