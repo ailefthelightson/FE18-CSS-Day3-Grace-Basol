@@ -311,13 +311,13 @@
 .tabHead1{
     flex-basis:185px;
     text-align:right;
-    border: 1px solid black;
+
    
 }
 .tabHead2   {
     flex-basis:90px;
     text-align:left;
-    border: 1px solid black;
+
 }
 .lastTable{
     display:flex;
@@ -325,11 +325,9 @@
     justify-content:space-between;
     margin: 0px 5px 0px 5px;
     font-size:12px;
-    border:1px solid black;
 }
 .noMargin{
     flex-basis: 90px;
-    border: 1px solid black;
     margin-top:0px;
     margin-bottom:0px;
 }
@@ -340,7 +338,6 @@
 .noMargin2  {
     flex-basis:140px;
     text-align:center;
-    border: 1px solid black;
     margin-top:0px;
 }
 .noMargin2 p{
@@ -349,7 +346,6 @@
 }
 .noMargin3  {
     flex-basis:133px;
-    border: 1px solid black;
     margin-top:0px;
 }
 .noMargin3  p{
@@ -358,7 +354,6 @@
 }
 .noMargin4{
     flex-basis:93px;
-    border: 1px solid black;
     margin-top:0px;
 }
 .noMargin4 p{
@@ -372,7 +367,7 @@
     justify-content:space-between;
     margin: 0px 5px 0px 5px;
     font-size:12px;
-    border:1px solid black;
+  
 }
 
 .lastSodium{
@@ -381,7 +376,7 @@
     justify-content:space-between;
     margin: 0px 5px 0px 5px;
     font-size:12px;
-    border:1px solid black;
+    
 }
 .lastCarb {
     display:flex;
@@ -389,7 +384,7 @@
     justify-content:space-between;
     margin: 0px 5px 0px 5px;
     font-size:12px;
-    border:1px solid black;
+    
 }
 .bigMargin{
     flex-basis:150px;
@@ -400,7 +395,7 @@
 }
 .bigMargin3{
     flex-basis:170px;
-    border: 1px solid black;
+    
 }
 .bigMargin3 p{
     margin-top:0px;
@@ -413,13 +408,85 @@
     margin-top:0px;
     margin-bottom:0px;
 }
+
+/*indented segments*/
+.lastSatFat {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:12px;
+    margin:0px 5px 0px 15px;
+}
+.noMarg {
+    
+    flex-basis:100px;
+}
+.noMarg p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMarg2{
+    
+    flex-basis:80px;
+}
+.noMarg2 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMarg3{
+   
+    flex-basis:110px;
+}
+.noMarg3 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noMarg4{
+  
+    flex-basis:90px;
+}
+.noMarg4 p {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.lastDiet{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:12px;
+    margin:0px 5px 0px 15px;
+}
+.noLast2 {
+    
+    flex-basis:110px;
+}
+.noLast2 p {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noLast3{
+    
+    flex-basis:130px;
+}
+.noLast3 p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.noLast4{
+   
+    flex-basis:87px;
+}
+.noLast4 p {
+    margin-top:0px;
+    margin-bottom:0px;
+}
 .lastCal    {
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     margin: 0px 5px 0px 5px;
     font-size:12px;
-    border:1px solid black;
+    
 }
 
 .centerThree    {
@@ -430,4 +497,7 @@
 }
 .center1 {
     margin:0px 10px;
+}
+.center1 p{
+    margin-top:0px;
 }
