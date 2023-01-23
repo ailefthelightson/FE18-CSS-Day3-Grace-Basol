@@ -63,21 +63,21 @@
     flex-direction:row;
     margin:0px 5px 0px 5px;
     
-   
 }
 .box1 {
        
     margin: 0px 0px 0px 0px;
     border: 1px solid black;
-    flex-basis:200px;   
+    flex-basis:100px;   
 }
 .box1 p{
     margin: 0px 0px 0px 0px;
  
 }
 .box2 {
-    flex-grow:1; 
+    
     border:1px solid black;
+    flex-basis:30px;
 }
 .box2 p {
    text-align:right;
@@ -92,14 +92,14 @@
 }
 .box1 {
     flex-grow:3.2;    
-
+    flex-basis:100px;  
     margin: 0px 5px 0px 0px;
 }
 .box1 p{
     margin: 0px 5px 0px 0px;
 }
 .box2 {
-    flex-grow:1; 
+    flex-basis:0px;
 }
 .box2 p {
    text-align:right;
@@ -114,16 +114,38 @@
     margin-bottom: 0;
 }
 
+/*indented paragraphs*/
+
+/*CALORIES FROM FAT */
+
 .calorFat {
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    width: 450px;
+    margin-left: 20px;
+    margin-right:5px;
 }
-.calorFat > p{
+
+.box1 {
+    flex-grow:2.5;    
+    flex-basis:100px;  
+    margin: 0px 5px 0px 0px;
+}
+.box1 p{
+    margin: 0px 5px 0px 0px;
+}
+.box2 {
+    flex-grow:1; 
+}
+.box2 p {
+   text-align:right;
+   flex-grow:1;
+}
+
+/*.calorFat > p{
     margin: 0px 5px 0px 5px;
     font-weight:bold;
-}
+    flex-grow:1;
+}*/
 #mediumLine {
     width: 440px;
     height:5px;
