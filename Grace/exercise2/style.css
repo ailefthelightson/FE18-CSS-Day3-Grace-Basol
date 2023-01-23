@@ -51,9 +51,7 @@
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-  
     width:450px;
-  
 }
 .item > p{
     margin: 0px 5px 0px 5px;
@@ -64,11 +62,12 @@
     width: 440px;
     height:2px;
     background-color: black; 
-    margin-top:0;  
+    margin-top:0px;
+    margin-bottom:0px;
 }
 .calories   {
     display:flex;
-    display-direction:row;
+    flex-direction:row;
     justify-content:space-between;
     width: 450px;
 }
@@ -76,4 +75,29 @@
     margin: 0px 5px 0px 5px;
     font-weight:bold;
 }
+#greyLine{
+    width: 420px;
+    height:2px;
+    background-color: grey; 
+    margin-top:0; 
+    margin-left:25px;
+    margin-bottom: 0;
+}
 
+.calorFat {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 450px;
+}
+.calorFat > p{
+    margin: 0px 5px 0px 5px;
+    font-weight:bold;
+}
+#mediumLine {
+    width: 440px;
+    height:5px;
+    background-color: black; 
+    margin-top:0; 
+    margin-bottom: 0;
+}
