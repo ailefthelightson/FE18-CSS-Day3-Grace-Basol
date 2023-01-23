@@ -24,6 +24,7 @@
 .firstSection h1{
     letter-spacing: 1px;
 }
+/*
 .firstSection #thickLine {
     width: 440px;
     height:10px;
@@ -31,7 +32,7 @@
     margin-top:0;  
     margin-bottom:0px;
 }
-
+*/
 /*Per Serving Line*/
 
 .amPerServing {
@@ -96,17 +97,70 @@
     justify-content:space-between;
     margin:0px 5px 0px 5px;
 }
- 
 
-#greyLine{
-    width: 420px;
-    height:2px;
-    background-color: grey; 
-    margin-top:0; 
-    margin-left:25px;
-    margin-bottom: 0;
+/*TOTAL FAT*/
+
+.totalFat {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
 }
 
+/*cholesterol*/
+
+.Cholesterol {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+/*sodium*/
+.sodium {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+/*total carbs*/
+.totalCarbs {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+/*protein*/
+.protein {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+.vitaminA {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+.vitaminC {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+.calcium {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+.iron {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:0px 5px 0px 5px;
+}
+ 
 /*indented paragraphs*/
 
 /*CALORIES FROM FAT */
@@ -130,7 +184,7 @@
     margin: 0px 5px 0px 0px;
 }
 .indent2 {
-    flex-basis:100; 
+    flex-basis:85px; 
     border: 1px solid black;
     margin-left:0px;
 }
@@ -138,14 +192,52 @@
 .indent2 p {
     text-align:right;
    margin: 0px 5px 0px 0px;
-
 }
-/*
-/*.calorFat > p{
-    margin: 0px 5px 0px 5px;
-    font-weight:bold;
-    flex-grow:1;
-}*/
+/*saturated fat*/
+.satFat {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 25px;
+    margin-right:5px;
+    border: 1px solid black;
+}
+/*trans fat*/
+.transFat {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 25px;
+    margin-right:5px;
+    border: 1px solid black;
+}
+/*dietary fibre*/
+.dietFib {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 25px;
+    margin-right:5px;
+    border: 1px solid black;
+}
+/*sugars*/
+.sugars {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 25px;
+    margin-right:5px;
+    border: 1px solid black;
+}
+/*LINES*/
+#thickLine {
+    width: 440px;
+    height:10px;
+    background-color: black; 
+    margin-top:0;  
+    margin-bottom:0px;
+}
+
 #mediumLine {
     width: 440px;
     height:5px;
@@ -159,4 +251,12 @@
     background-color: black; 
     margin-top:0px;
     margin-bottom:0px;
+}
+#greyLine{
+    width: 420px;
+    height:2px;
+    background-color: grey; 
+    margin-top:0; 
+    margin-left:25px;
+    margin-bottom: 0;
 }
