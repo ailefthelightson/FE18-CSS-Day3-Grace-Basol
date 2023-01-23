@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
 
-
-
-
+/*body css */
 .container {
     height:520px;
     width:450px;
@@ -10,6 +8,9 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/*Nutrition Facts section*/
 
 .firstSection   {
     font-weight:bold;
@@ -31,13 +32,12 @@
     margin-bottom:0px;
 }
 
-
+/*Per Serving Line*/
 
 .amPerServing {
     
     display: flex;
     flex-direction:column;
-    
 }
 
  #titles > p {
@@ -45,18 +45,6 @@
     flex-direction:row;
     justify-content:flex-end;
     margin:0px 5px 0px 0px;
-    
-}
-
- .item {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    width:450px;
-}
-.item > p{
-    margin: 0px 5px 0px 5px;
-    font-weight:bold;
 }
 
 .amPerServing #thinLine {
@@ -66,16 +54,57 @@
     margin-top:0px;
     margin-bottom:0px;
 }
-.calories   {
+
+/*class next to margin left*/
+
+/*AMOUNT PER SERVING*/
+.item1 {
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
-    width: 450px;
+    margin:0px 5px 0px 5px;
+    
+   
 }
-.calories > p {
-    margin: 0px 5px 0px 5px;
-    font-weight:bold;
+.box1 {
+       
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    flex-basis:200px;   
 }
+.box1 p{
+    margin: 0px 0px 0px 0px;
+ 
+}
+.box2 {
+    flex-grow:1; 
+    border:1px solid black;
+}
+.box2 p {
+   text-align:right;
+}
+
+/*CALORIES*/
+.calories {
+    display:flex;
+    flex-direction:row;
+    margin:0px 5px 0px 5px;
+    
+}
+.box1 {
+    flex-grow:3.2;    
+
+    margin: 0px 5px 0px 0px;
+}
+.box1 p{
+    margin: 0px 5px 0px 0px;
+}
+.box2 {
+    flex-grow:1; 
+}
+.box2 p {
+   text-align:right;
+}
+
 #greyLine{
     width: 420px;
     height:2px;
