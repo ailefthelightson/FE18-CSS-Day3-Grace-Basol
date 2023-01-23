@@ -67,7 +67,7 @@
     
 }
 .box1 {
-    border: 1px solid black;
+    
     flex-basis:300px;
     margin-right:0px;
     
@@ -80,7 +80,7 @@
 
 .box2 {
     
-    border:1px solid black;
+    
     flex-basis:100px;
     margin-left:0px;
 }
@@ -171,13 +171,13 @@
     justify-content:space-between;
     margin-left: 25px;
     margin-right:5px;
-    border: 1px solid black;
+   
 }
 
 .indent1 {
     
     flex-basis:240px;  
-    border: 1px solid black;
+   
 }
 
 .indent1 p{
@@ -185,7 +185,7 @@
 }
 .indent2 {
     flex-basis:85px; 
-    border: 1px solid black;
+   
     margin-left:0px;
 }
 
@@ -200,7 +200,7 @@
     justify-content:space-between;
     margin-left: 25px;
     margin-right:5px;
-    border: 1px solid black;
+    
 }
 /*trans fat*/
 .transFat {
@@ -209,7 +209,7 @@
     justify-content:space-between;
     margin-left: 25px;
     margin-right:5px;
-    border: 1px solid black;
+   
 }
 /*dietary fibre*/
 .dietFib {
@@ -218,7 +218,7 @@
     justify-content:space-between;
     margin-left: 25px;
     margin-right:5px;
-    border: 1px solid black;
+    
 }
 /*sugars*/
 .sugars {
@@ -227,7 +227,7 @@
     justify-content:space-between;
     margin-left: 25px;
     margin-right:5px;
-    border: 1px solid black;
+    
 }
 /*LINES*/
 #thickLine {
@@ -252,10 +252,39 @@
     margin-top:0px;
     margin-bottom:0px;
 }
+#thinLineGrey{
+    width: 440px;
+    height:2px;
+    background-color: grey; 
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#thinLightGrey  {
+    width: 440px;
+    height:2px;
+    background-color: lightgray; 
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#thinnestGrey{
+    width: 440px;
+    height:1px;
+    background-color: grey; 
+    margin-top:0px;
+    margin-bottom:0px;
+}
 #greyLine{
     width: 420px;
     height:2px;
     background-color: grey; 
+    margin-top:0; 
+    margin-left:25px;
+    margin-bottom: 0;
+}
+#shortline{
+    width: 420px;
+    height:2px;
+    background-color: black; 
     margin-top:0; 
     margin-left:25px;
     margin-bottom: 0;
