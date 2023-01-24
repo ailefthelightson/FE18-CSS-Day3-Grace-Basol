@@ -327,8 +327,9 @@
     font-size:12px;
 }
 .noMargin{
-    flex-basis: 90px;
-    margin-top:0px;
+    /*flex-basis: 90px;*/
+    flex-basis:10%;
+     margin-top:0px; 
     margin-bottom:0px;
 }
 .noMargin p{
@@ -365,7 +366,9 @@
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    margin: 0px 5px 0px 5px;
+    /*margin: 0px 5px 0px 5px;
+*/
+    margin:0 5px;
     font-size:12px;
   
 }
